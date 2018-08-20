@@ -1,13 +1,13 @@
 package tutorialTwo;
 
+import java.util.Scanner;
+
 /**
  * NTU CS2002 Object Oriented Programming
  * Tutorial 2 Qns 1
  * 
  * @author Jordan Liew
  */
-
-import java.util.Scanner;
 
 public class CircleApp {
 	static Scanner sc = new Scanner(System.in);

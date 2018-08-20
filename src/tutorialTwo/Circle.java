@@ -15,7 +15,7 @@ public class Circle {
 	/**
 	 * Generate Circle
 	 * 
-	 * @param radius
+	 * @param desired radius of circle
 	 */
 	public Circle(double radius) {
 		this.radius = radius; 
@@ -24,7 +24,7 @@ public class Circle {
 	/**
 	 * Updates radius of Circle
 	 * 
-	 * @param radius
+	 * @param desired radius of circle
 	 */
 	public void setRadius(double radius) {
 		this.radius = radius;
@@ -33,7 +33,7 @@ public class Circle {
 	/**
 	 * Returns radius of Circle
 	 * 
-	 * @return radius
+	 * @return radius of circle
 	 */
 	public double getRadius() {
 		return this.radius;
@@ -42,7 +42,7 @@ public class Circle {
 	/**
 	 * Returns area of Circle
 	 * 
-	 * @return area
+	 * @return area of circle
 	 */
 	public double area() {
 		return PI*this.radius*this.radius;
@@ -50,7 +50,8 @@ public class Circle {
 	
 	/**
 	 * Returns circumference of Circle
-	 * @return
+	 * 
+	 * @return circumference of circle
 	 */
 	public double circumference() {
 		return 2*PI*this.radius;
