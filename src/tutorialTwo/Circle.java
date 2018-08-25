@@ -15,7 +15,7 @@ public class Circle {
 	/**
 	 * Generate Circle
 	 * 
-	 * @param desired radius of circle
+	 * @param radius desired radius of circle
 	 */
 	public Circle(double radius) {
 		this.radius = radius; 

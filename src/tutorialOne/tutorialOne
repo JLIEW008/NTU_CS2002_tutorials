@@ -1,13 +1,59 @@
 Tutorial 1
 
 Question 1)
-	Class: Student, Book, Person, Liquid
+	Class: Student, Book, Person, Liquid, Transformer, Engine
 	Object: NTU, MichaelJackson, Person1
-	Attribute: Age, Result, Color, Transformer, Engine
+	Attribute: Age, Result, Color, Engine
 	Behaviour: Work, Shoot, Force
 
 Question 2)
-
+	Class School
+		Attribute ArrayList<Staff>;
+		Attribute ArrayList<Student>;
+	
+	Class Lecturer extend Staff
+		Attribute numberOfLecture;
+		Attribute numberOfTutorial;
+		Attribute ArrayList<Lecture>;
+		Attribute ArrayList<Tutorial>;
+	
+		Behaviour addLecture
+		Behaviour dropLecture
+		Behaviour static getNumberOfLecture
+		Behaviour addTutorial
+		Behaviour dropTutoiral
+		Behaviour static getNumberOfTutorial
+		Behaviour updateResults
+	
+	Class AdminStaff extend Staff
+	
+		Behaviour generateLectureSchedule
+		Behaviour editLectureSchedule
+		Behaviour generateTutorialSchedule
+		Behaviour editTutoiralSchedule
+		Behaviour doAdminStuff
+	
+	Class Staff extend SchoolPersonnel
+		
+	
+	Class Student extend SchoolPersonnel
+		Attribute year;
+		Attribute results;
+		
+	
+	SchoolPersonnel 
+		Attribute name;
+		Attribute age;
+		....
+	
+	Class Lecture
+		Attribute Lecturer;
+		Attribute ArrayList<Tutorial>;
+	
+	Class Tutorial
+		Attribute Lecturer;
+		Attribute ArrayList<Student>;
+	
 Question 3) 
 	
 	Refer to BubbleSort.java for code.

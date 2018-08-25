@@ -1,17 +1,25 @@
 package tutorialOne;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  * NTU CS2002 Object Oriented Programming
- * Tutorial 1 Qns
+ * Tutorial 1 Qns 3
+ * 
  * @author Jordan Liew
  */
+
 public class BubbleSort {
 	
-	private static void bubble(int a[],int n)
+	/**
+	 * Sorts the array in ascending order
+	 * 
+	 * @param a array to be sorted
+	 * @param n number of members in the array
+	 */
+	private static void bubble(int a[],int n) //Arrays.sort(), use Collections.sort() if using ArrayList
 	{
 		int i,j,t;
-		for(i=n-2;i>=0;i--)
+		for(i=n-2;i>=0;i--)	//Running the loop n-1 times
 		{
 			for(j=0;j<=i;j++)
 			{
