@@ -1,0 +1,26 @@
+Tutorial 4
+Qns 1) 
+	Output of code: 
+		Console:
+			Try block entered
+			Exception: Time Limited Exceeded
+			After catch block
+			
+	If waitTime == 12
+		Console:
+			Try block entered
+			Leaving try block
+			After catch block
+			
+Qns 3)
+	Output of code:
+		Console:
+			In finally block.
+			Caught in main.
+			
+	If arg == -99
+		Console:
+			Caught in sampleMethod.
+			In finally block.
+			After finally block.
+			
